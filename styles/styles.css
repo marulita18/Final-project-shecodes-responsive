@@ -64,8 +64,15 @@ p {
 }
 
 @media (max-width: 560px) {
+  h1 {
+    font-size: 60px;
+    line-height: 1.5;
+  }
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .hero {
+    padding: 80px 20px;
   }
 }
