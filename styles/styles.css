@@ -63,6 +63,27 @@ p {
   padding: 120 60px;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+}
+
+.about-section p {
+  font-size: 18px;
+  font-family: Roboto;
+}
+
 @media (max-width: 560px) {
   h1 {
     font-size: 60px;
