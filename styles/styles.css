@@ -89,6 +89,29 @@ p {
   font-size: 18px;
   font-family: Roboto;
 }
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li.active a {
+  color: var(--branding-color);
+}
+
+nav a:hover {
+  color: var(--branding-color);
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
 
 @media (max-width: 560px) {
   h1 {
